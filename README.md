@@ -66,7 +66,8 @@ docker compose up -d --build
 * <img width="1538" height="436" alt="go-app" src="https://github.com/user-attachments/assets/82fb05ba-1ac4-43bc-bff7-fb5b3a5a1b55" />
 
 ## 🌐 Make Sure to Add Inbound Ports in Security Groups of All Vms so that they can communicate with each other properly.
-<img width="991" height="176" alt="image" src="https://github.com/user-attachments/assets/57e022b1-104c-4a52-a7ca-c60395c210bb" />
+<img width="1020" height="393" alt="image" src="https://github.com/user-attachments/assets/ce775230-70f8-436c-a9a0-89939a0af6da" />
+## 🌐 Also Add : 8080, 8000, 3000, 3001
 
 ---
 
