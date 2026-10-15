@@ -52,17 +52,17 @@ docker compose up -d --build
 ```
 
 ### Service URLs
-* **Next.js App**: `http://Publicip:8084`
+* **Next.js App**: `http://Publicip:3000`
 * * <img width="1409" height="586" alt="image" src="https://github.com/user-attachments/assets/85e57fc1-6e9d-4c5a-808c-97f079e912d0" />
 
-* **Node.js App**: `http://publicip:8083`
+* **Node.js App**: `http://publicip:3001`
 * <img width="704" height="165" alt="image" src="https://github.com/user-attachments/assets/40516d3c-988d-4737-b2e9-e9b56a7e410a" />
 
 
-* **Laravel App**: `http://Publicip:8082`
+* **Laravel App**: `http://Publicip:8000`
 * <img width="1804" height="811" alt="laravelapp" src="https://github.com/user-attachments/assets/3ad6c952-8724-49ce-b7ea-ad52d949b3af" />
 
-* **Go App**: `http://Publicip:8081`
+* **Go App**: `http://Publicip:8080`
 * <img width="1538" height="436" alt="go-app" src="https://github.com/user-attachments/assets/82fb05ba-1ac4-43bc-bff7-fb5b3a5a1b55" />
 
 ## 🌐 Make Sure to Add Inbound Ports in Security Groups of All Vms so that they can communicate with each other properly.
