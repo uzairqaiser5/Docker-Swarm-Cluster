@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  node-app:
+    build:
+      context: ./node-app
+      dockerfile: Dockerfile
+    container_name: node-container
+    ports:
+      - "3001:3000"
+    restart: unless-stopped
+
+  next-app:
+    build:
+      context: ./next-app
+      dockerfile: Dockerfile
+    container_name: next-container
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+
+  laravel-app:
+    build:
+      context: ./laravel-app
+      dockerfile: Dockerfile
+    container_name: laravel-container
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  go-app:
+    build:
+      context: ./go-app
+      dockerfile: Dockerfile
+    container_name: go-container
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

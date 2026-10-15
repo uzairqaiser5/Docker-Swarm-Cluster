@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+vendor/
+.pnpm-store/
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# SQLite database & runtime data
+*.sqlite
+*.sqlite-journal
+laravel-db-data/
+
+# Logs & cache
+*.log
+storage/logs/
+bootstrap/cache/
+.next/
+dist/
+build/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
